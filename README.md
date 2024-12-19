@@ -1,3 +1,7 @@
+Here's the updated version of the `README.md` with the requested module name changes:
+
+---
+
 # 🚀 **Automated AWS Multi-Tier Web Application Architecture with Terraform and GitLab CI/CD**
 
 ---
@@ -31,7 +35,7 @@ Manages the compute resources and application deployment:
    - **EC2 Instances** with **Auto Scaling Group (ASG)** and Launch Templates.  
    - **Application Load Balancer (ALB)** to distribute HTTP traffic to EC2 instances.  
    - **User Data**:  
-     - Leverages `deploy_app.sh` (base64-encoded) to configure and deploy the application on EC2 instances.  
+     - Leverages `app.sh` (base64-encoded) to configure and deploy the application on EC2 instances.  
    - **Outputs**: ASG Name, Security Group IDs, and ALB details.
 
 ---
@@ -86,8 +90,9 @@ Ensure you have the following tools installed:
 
 ### **Clone the Repository**
 ```bash
-git clone <your-repo-url>
-cd project-1
+git clone https://github.com/VaniAdireddy/Terraform-GitlabCi-AWS-MultiTierWebApp.git
+cd Terraform-GitlabCi-AWS-MultiTierWebApp
+
 ```
 
 ### **Setup Environment Variables**
@@ -156,6 +161,19 @@ terraform apply
 
 ---
 
+## **Screenshots** 🖼️  
+
+<img width="1440" alt="Screenshot 2024-12-17 at 5 42 15 PM" src="https://github.com/user-attachments/assets/3dbab1f5-1e75-48a7-9c97-a059f4ffc0fa" />
+<img width="1438" alt="Screenshot 2024-12-17 at 5 59 47 PM" src="https://github.com/user-attachments/assets/8a214e19-4528-49ed-8ac9-c6c23d2cf150" />
+<img width="1424" alt="Screenshot 2024-12-17 at 6 01 12 PM" src="https://github.com/user-attachments/assets/6ec06982-a022-401e-81bd-1e8cff72360a" />
+<img width="1407" alt="Screenshot 2024-12-18 at 7 23 56 PM" src="https://github.com/user-attachments/assets/8d080a2e-7452-4911-a4a3-9d726a44e535" />
+<img width="1430" alt="Screenshot 2024-12-17 at 6 05 10 PM" src="https://github.com/user-attachments/assets/696e7c20-9d26-4d1b-a764-61f8d02824b3" />
+<img width="1432" alt="Screenshot 2024-12-17 at 6 06 14 PM" src="https://github.com/user-attachments/assets/d980d4ff-d493-4e80-9749-e7687b5c8a69" />
+<img width="1169" alt="Screenshot 2024-12-17 at 6 07 26 PM" src="https://github.com/user-attachments/assets/08849676-8584-48c1-99ff-d4757a50cdcd" />
+<img width="1164" alt="Screenshot 2024-12-17 at 6 07 35 PM" src="https://github.com/user-attachments/assets/918ba916-34e3-4ed1-85ef-b5198b168aad" />
+
+---
+
 ## **How to Contribute** 🤝  
 Feel free to fork the repository, submit issues, or raise pull requests to enhance this project.
 
@@ -164,4 +182,3 @@ Feel free to fork the repository, submit issues, or raise pull requests to enhan
 ## **Conclusion**  
 This project demonstrates a fully automated, scalable, and secure AWS cloud infrastructure using Terraform and GitLab CI/CD pipelines, showcasing expertise in DevOps, Infrastructure-as-Code, and Cloud Automation.
 
---- 
