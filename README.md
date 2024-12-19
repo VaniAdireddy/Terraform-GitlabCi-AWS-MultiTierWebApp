@@ -2,7 +2,7 @@ Here's the updated version of the `README.md` with the requested module name cha
 
 ---
 
-# 🚀 **Automated AWS Multi-Tier Web Application Architecture with Terraform and GitLab CI/CD**
+# **Automated AWS Multi-Tier Web Application Architecture with Terraform and GitLab CI/CD**
 
 ---
 
