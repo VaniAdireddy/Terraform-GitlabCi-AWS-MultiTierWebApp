@@ -1,6 +1,3 @@
-Here's the updated version of the `README.md` with the requested module name changes:
-
----
 
 # **Automated AWS Multi-Tier Web Application Architecture with Terraform and GitLab CI/CD**
 
