@@ -1,0 +1,56 @@
+# Terraform State Files
+# *.tfstate
+# *.tfstate.backup
+# *.tfvars
+# !example.tfvars
+
+# Terraform Crash Logs
+# crash.log
+
+# Terraform Lock File
+# .terraform.lock.hcl
+
+# Terraform Cache
+# .terraform/
+
+# Ignore Backend State Files (S3 and DynamoDB outputs)
+# terraform.tfstate.d/
+
+# Local Terraform Plan Files
+# *.tfplan
+
+# Secrets and Environment Variables
+# *.env
+# .env.*
+
+# Ignore IDE Files
+# .vscode/
+# .idea/
+# *.iml
+
+# Ignore Logs
+# *.log
+
+# Ignore OS-specific files
+# .DS_Store
+# Thumbs.db
+
+# Ignore Build and Temp Files
+# *.out
+# *.tmp
+# *.bak
+
+# GitLab CI/CD Artifacts
+# .gitlab-ci.yml.lock
+
+# Ignore AWS CLI credentials
+# .aws/
+# credentials
+# config
+
+# Ignore SSH keys
+# *.pem
+# *.pub
+
+# Ignore temporary script outputs
+# *.sh~
